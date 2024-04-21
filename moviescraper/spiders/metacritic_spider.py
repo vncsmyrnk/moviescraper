@@ -9,8 +9,8 @@ class MetacriticSpider(scrapy.Spider):
     allowed_domains = ['metacritic.com']
     start_urls = ['https://www.metacritic.com/browse/movie']
     BASE_URL = 'https://www.metacritic.com'  # Non-scrapy
-    max_pages = 1  # Non-scrapy; Limite de quantidade de paginas
-    download_delay = 2  # Atraso de 2 segundos entre as requisições
+    max_pages = 450  # Non-scrapy; Limite de quantidade de paginas
+    download_delay = 1  # Atraso de 2 segundos entre as requisições
     custom_settings = {
         'FEED_FORMAT': 'json',  # Formato do arquivo de saída
         'FEED_URI': 'reviews.json',  # Nome do arquivo de saída
