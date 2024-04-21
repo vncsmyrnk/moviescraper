@@ -1,6 +1,9 @@
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
+
 # Movie Scraper
 
-This is a project of an application that scrapes the pages of the [Metacritic](https://www.metacritic.com/) website to colect data about movies and critics.
+This is a project based on python and scrapy that scrapes the pages of the [Metacritic](https://www.metacritic.com/) website to colect data about movies and critics.
 
 ## Run with docker
 
