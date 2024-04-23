@@ -4,6 +4,8 @@
 
 This is a project based on python and scrapy that scrapes the pages of the [Metacritic](https://www.metacritic.com/) website to colect data about movies and critics.
 
+All data belongs to the platforms.
+
 ## Example output
 
 ```json
