@@ -51,7 +51,7 @@ This is a project based on python and scrapy that scrapes the pages of the [Meta
 ]
 ```
 
-The complete scraped data is at https://raw.githubusercontent.com/vncsmyrnk/moviescraper/main/reviews.json.
+The complete scraped data is at [reviews_formatted.json](https://raw.githubusercontent.com/vncsmyrnk/moviescraper/main/reviews_formatted.json).
 
 ## Run with docker
 
